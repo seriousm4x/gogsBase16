@@ -1,6 +1,8 @@
 # gogsBase16
 Base16 stylish theme for gogs
 
+![gogsBase16 preview image](assets/preview.png)
+
 ## Caution
 The current version is in a very early state. Using this version is not recommended at the moment.
 
