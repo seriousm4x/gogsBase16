@@ -29,4 +29,4 @@ Please feel free submit pull requests, as I'm not a web developer at all. Please
 Any help is welcome.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
