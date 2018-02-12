@@ -15,6 +15,10 @@ footer {
   border-top: 1px solid #373b41;
 }
 
+footer .container .fa {
+  color: #81a2be;
+}
+
 a {
   color: #81a2be;
 }
@@ -22,6 +26,10 @@ a {
 a:hover {
   color: #81a2be;
   opacity: 0.6;
+}
+
+hr {
+  background-color: #e0e0e0 !important;
 }
 
 /* Navigation */
@@ -226,6 +234,97 @@ a:hover {
 }
 
 .ui .text.black:hover {
+  color: #e0e0e0;
+  opacity: 0.6;
+}
+
+.ui.breadcrumb .divider {
+  color: #e0e0e0;
+}
+
+.ui.table thead th {
+  color: #1d1f21;
+}
+
+.three.wide.text.grey.right.age .time-since.poping.up {
+  color: #1d1f21;
+}
+
+.ui.attached.header {
+  background: #e0e0e0;
+}
+
+.ui.top.attached.header {
+  background: #e0e0e0;
+  color: #282a2e;
+}
+
+.ui.attached.table {
+  border: transparent;
+}
+
+.markdown:not(code) .highlight pre, .markdown:not(code) pre {
+  background-color: #1d1f21;
+}
+
+.hljs {
+  color: #e0e0e0 !important;
+}
+
+.hljs-built_in, .hljs-builtin-name {
+  color: #81a2be !important;
+}
+
+.hljs-comment, .hljs-quote {
+  color: #969896 !important;
+  opacity: 0.7;
+}
+
+.markdown:not(code) h1,
+.markdown:not(code) h2,
+.markdown:not(code) h3,
+.markdown:not(code) h4,
+.markdown:not(code) h5,
+.markdown:not(code) h6 {
+  border-bottom: 1px solid rgba(224, 224, 224, 0.6);
+}
+
+/* Issues */
+
+.ui.basic.green.active.button, .ui.basic.green.buttons .active.button {
+  box-shadow: 0 0 0 1px #b5bd68 inset !important;
+  color: #b5bd68 !important;
+}
+
+.ui.basic.button:hover, .ui.basic.buttons .button:hover {
+  background: #282a2e !important;
+  color: #e0e0e0 !important;
+}
+
+.ui.basic.red.active.button, .ui.basic.red.buttons .active.button {
+  box-shadow: 0 0 0 1px #cc6666 inset !important;
+  color: #cc6666 !important;
+}
+
+.ui.compact.small.menu {
+  background: #282a2e !important;
+}
+
+.issue.list>.item .title {
+  color: #e0e0e0;
+}
+
+.ui.black.label, .ui.black.labels .label {
+  color: #e0e0e0;
+  background-color: #282a2e !important;
+}
+
+.issue.list>.item .desc {
+  color: #e0e0e0;
+  opacity: 0.6;
+}
+
+.issue.list>.item .title:hover {
   color: #e0e0e0;
   opacity: 0.6;
 }
