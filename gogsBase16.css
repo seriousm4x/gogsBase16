@@ -289,6 +289,10 @@ hr {
   border-bottom: 1px solid rgba(224, 224, 224, 0.6);
 }
 
+.ui.basic.small.button {
+  background: #282a2e !important;
+}
+
 /* Issues */
 
 .ui.basic.green.active.button, .ui.basic.green.buttons .active.button {
