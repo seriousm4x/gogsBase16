@@ -147,10 +147,6 @@ hr {
   background-color: #81a2be;
 }
 
-.ui.divider:not(.vertical):not(.horizontal) {
-  border-bottom-color: #373b41;
-}
-
 .ui.list .list>.item .description, .ui.list>.item .description {
   color: #969896;
 }
@@ -164,19 +160,11 @@ hr {
 }
 
 .ui.user.list .item:not(:first-child) {
-  border-top: 1px solid rgba(224, 224, 224, 0.6);
+  border-top: 1px solid #373b41;
 }
 
 .ui.divider:not(.vertical):not(.horizontal) {
-  border-bottom: 1px solid rgba(224, 224, 224, 0.6);
-}
-
-.ui.user.list .item:not(:first-child) {
-  border-top: 1px solid rgba(224, 224, 224, 0.6);
-}
-
-.ui.divider:not(.vertical):not(.horizontal) {
-  border-bottom: 1px solid rgba(224, 224, 224, 0.6);
+  border-bottom: 1px solid #373b41;
 }
 
 /* Repos */
