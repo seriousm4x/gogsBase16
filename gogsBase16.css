@@ -1,0 +1,130 @@
+/* Main */
+
+body {
+  background-color: #1d1f21 !important;
+  color: #e0e0e0;
+}
+
+body:not(.full-width) {
+  background-color: #1d1f21 !important;
+}
+
+footer {
+  background-color: #282a2e;
+  color: #e0e0e0;
+  border-top: 1px solid #373b41;
+}
+
+a {
+  color: #81a2be;
+}
+
+a:hover {
+  color: #81a2be;
+  opacity: 0.6;
+}
+
+/* Navigation */
+
+.following.bar.light {
+  background-color: #282a2e;
+  border-bottom: 1px solid #373b41;
+}
+
+.ui.secondary.menu .active.item {
+  color: #e0e0e0;
+  background-color: #1d1f21;
+  font-weight: bold;
+}
+
+.ui.menu .item {
+  color: #e0e0e0;
+}
+
+.following.bar .top.menu a.item:hover {
+  color: #b4b7b4;
+}
+
+/* Home */
+
+.home a {
+  color: #cc6666;
+}
+
+.home .hero .octicon {
+  color: #cc6666;
+}
+
+.ui.header {
+  color: #e0e0e0;
+}
+
+/* Explore */
+
+.ui.vertical.menu {
+  background-color: #373b41;
+}
+
+.ui.vertical.menu .header.item {
+  background-color: #373b41;
+}
+
+.ui.vertical.menu .active.item {
+  background-color: #282a2e;
+}
+
+.ui.menu .active.item {
+  color: #e0e0e0;
+}
+
+.ui.menu a.item:hover {
+  color: #fff;
+  background-color: #282a2e;
+}
+
+.ui.repository.list .item:not(:first-child) {
+  border-top: 1px solid #373b41;
+}
+
+.ui.menu .active.item:hover, .ui.vertical.menu .active.item:hover {
+  background-color: #282a2e;
+  color: #e0e0e0;
+}
+
+.ui.form input:not([type]), .ui.form input:not([type]):focus {
+  background-color: #373b41;
+  color: #b4b7b4;
+}
+
+.ui.form input:not([type]):focus {
+  border-top-color: #81a2be;
+  border-left-color: #81a2be;
+  border-bottom-color: #81a2be;
+  color: #e0e0e0;
+}
+
+.ui.blue.button, .ui.blue.buttons .button {
+  background-color: #81a2be;
+}
+
+.ui.divider:not(.vertical):not(.horizontal) {
+  border-bottom-color: #373b41;
+}
+
+.ui.list .list>.item .description, .ui.list>.item .description {
+  color: #969896;
+}
+
+.ui.repository.list .item .time {
+  color: #969896;
+}
+
+.ui .text.grey {
+  color: #969896 !important;
+}
+
+/* Repos */
+
+.repository .header-wrapper {
+  background-color: #282a2e;
+}
