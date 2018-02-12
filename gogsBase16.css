@@ -212,6 +212,7 @@ hr {
 
 .ui.basic.blue.button, .ui.basic.blue.buttons .button {
   color: #81a2be !important;
+  box-shadow: 0 0 0 1px #81a2be inset !important;
 }
 
 .ui.basic.blue.button:hover, .ui.basic.blue.buttons .button:hover {
@@ -308,6 +309,44 @@ hr {
   background: #373b41;
 }
 
+.ui.blue.button:hover, .ui.blue.buttons .button:hover {
+  background-color: #81a2be;
+  opacity: 0.6;
+}
+
+.repository .diff-file-box .code-diff tbody tr.add-code td {
+  background-color: rgba(181, 189, 104, 0.1) !important;
+  opacity: 0.6;
+}
+
+.ui .info.segment.top {
+  background-color: #282a2e !important;
+}
+
+.tag-code.nl-0.ol-0 > .lines-code > pre > code {
+  color: #1d1f21 !important;
+}
+
+.hljs-title, .hljs-section, .hljs-selector-id {
+  color: #cc6666 !important;
+}
+
+.ui.checkbox label, .ui.checkbox+label {
+  color: #e0e0e0;
+}
+
+.ui.red.button, .ui.red.buttons .button {
+  background-color: #cc6666;
+}
+
+.ui.green.button:hover, .ui.green.buttons .button:hover {
+  background-color: #cc6666;
+  opacity: 0.6;
+}
+
+.repository .diff-file-box .code-diff tbody tr.del-code td {
+  background-color: rgba(204, 102, 102, 0.1) !important;
+}
 /* Issues */
 
 .ui.basic.green.active.button, .ui.basic.green.buttons .active.button {
