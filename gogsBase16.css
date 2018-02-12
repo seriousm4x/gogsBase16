@@ -51,6 +51,7 @@ hr {
 
 .ui.menu {
   border: 1px solid #373b41;
+  background: #1d1f21;
 }
 
 .following.bar .top.menu a.item:hover {
@@ -69,6 +70,33 @@ hr {
 
 .ui.header {
   color: #e0e0e0;
+}
+
+.feeds .list ul li.private {
+  background-color: #373b41;
+  border-bottom: 1px solid rgba(224, 224, 224, 0.6);
+}
+
+.feeds .list ul li:not(:last-child) {
+  border-bottom: 1px solid rgba(224, 224, 224, 0.6);
+}
+
+.ui.accordion .title:not(.ui) {
+  color: #e0e0e0;
+}
+
+#auth_password {
+  background: #373b41;
+  color: #e0e0e0;
+}
+
+.ui.checkbox label:hover, .ui.checkbox+label:hover {
+  color: #e0e0e0;
+  opacity: 0.6;
+}
+
+.ui.secondary.menu .dropdown.item:hover, .ui.secondary.menu .link.item:hover, .ui.secondary.menu a.item:hover {
+  color: rgba(224, 224, 224, 0.6);
 }
 
 /* Explore */
@@ -195,6 +223,7 @@ hr {
 
 .ui.table thead th {
   background: #e0e0e0;
+  color: #1d1f21;
 }
 
 .repository.file.list #repo-files-table tr:hover {
@@ -241,10 +270,6 @@ hr {
 
 .ui.breadcrumb .divider {
   color: #e0e0e0;
-}
-
-.ui.table thead th {
-  color: #1d1f21;
 }
 
 .three.wide.text.grey.right.age .time-since.poping.up {
@@ -323,7 +348,7 @@ hr {
   background-color: #282a2e !important;
 }
 
-.tag-code.nl-0.ol-0 > .lines-code > pre > code {
+.tag-code.nl-0.ol-0>.lines-code>pre>code {
   color: #1d1f21 !important;
 }
 
@@ -347,6 +372,7 @@ hr {
 .repository .diff-file-box .code-diff tbody tr.del-code td {
   background-color: rgba(204, 102, 102, 0.1) !important;
 }
+
 /* Issues */
 
 .ui.basic.green.active.button, .ui.basic.green.buttons .active.button {
@@ -430,4 +456,103 @@ hr {
 
 .ui.form textarea {
   background: #e0e0e0;
+}
+
+/* Pull requests */
+
+.ui.header .sub.header {
+  color: #e0e0e0 !important;
+}
+
+.editor-toolbar a {
+  color: #81a2be !important;
+}
+
+/* Wiki */
+
+.repository.wiki.view .markdown {
+  background: #282a2e;
+}
+
+/* Profile drop down */
+
+.ui.menu .dropdown.item .menu {
+  background: #e0e0e0;
+}
+
+.ui.menu .ui.dropdown .menu>.item:hover, .ui.menu .ui.dropdown .menu>.selected.item {
+  background: #b4b7b4 !important;
+  opacity: 0.6;
+}
+
+/* Profile */
+
+.ui.card, .ui.cards>.card {
+  background: #282a2e;
+  box-shadow: none;
+}
+
+.ui.card>.extra a:not(.ui), .ui.cards>.card>.extra a:not(.ui) {
+  color: #81a2be;
+}
+
+.ui.card>.extra, .ui.cards>.card>.extra {
+  border-top: 1px solid #373b41 !important;
+}
+
+.user.profile .ui.card .extra.content ul li:not(:last-child) {
+  border-bottom: 1px solid #373b41 !important;
+}
+
+.ui.secondary.pointing.menu .active.item {
+  color: #e0e0e0;
+}
+
+/* Settings */
+
+.ui.form .field>label {
+  color: #e0e0e0;
+}
+
+#website {
+  background: #373b41;
+  color: #e0e0e0;
+}
+
+.inline.box.field>label {
+  color: #e0e0e0 !important;
+}
+
+.inline.box.field>input {
+  background: #373b41;
+  color: #e0e0e0;
+}
+
+#old_password, #password, #retype, #email {
+  background: #373b41;
+  color: #e0e0e0;
+}
+
+label[for=org_name] {
+  color: #e0e0e0 !important;
+}
+
+.ui.red.message {
+  color: #cc6666;
+}
+
+.ui.very.basic.striped.table>thead>tr>th {
+  color: #e0e0e0;
+}
+
+.ui.form .inline.field>label, .ui.form .inline.field>p, .ui.form .inline.fields .field>label, .ui.form .inline.fields .field>p, .ui.form .inline.fields>label {
+  color: #e0e0e0;
+}
+
+.ui.very.basic.select.selectable.table>thead>tr>th {
+  color: #e0e0e0;
+}
+
+.ui.teal.button, .ui.teal.buttons .button {
+  background-color: #8abeb7;
 }
