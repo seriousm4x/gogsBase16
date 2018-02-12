@@ -41,6 +41,10 @@ a:hover {
   color: #e0e0e0;
 }
 
+.ui.menu {
+  border: 1px solid #373b41;
+}
+
 .following.bar .top.menu a.item:hover {
   color: #b4b7b4;
 }
@@ -127,4 +131,101 @@ a:hover {
 
 .repository .header-wrapper {
   background-color: #282a2e;
+}
+
+.ui.basic.button, .ui.basic.buttons .button {
+  color: #e0e0e0 !important;
+}
+
+.ui.tabular.menu .item {
+  color: #e0e0e0;
+}
+
+.ui.tabular.menu .active.item {
+  background: none #373b41;
+  color: #e0e0e0;
+  border-color: transparent;
+}
+
+.ui .text.black {
+  color: #e0e0e0;
+}
+
+.ui .text.black:hover {
+  color: #b4b7b4;
+}
+
+.ui.segment {
+  background: #282a2e;
+}
+
+.ui.input input {
+  background: #373b41;
+  color: #e0e0e0;
+}
+
+.ui.basic.button:hover, .ui.basic.buttons .button:hover {
+  background: #e0e0e0 !important;
+}
+
+.ui.basic.label {
+  background: none #e0e0e0;
+}
+
+.ui.dropdown .menu {
+  background: #e0e0e0;
+}
+
+.reference.column .text.black {
+  color: #1d1f21;
+}
+
+.ui.table {
+  background: #282a2e;
+  color: #e0e0e0;
+}
+
+.ui.table thead th {
+  background: #e0e0e0;
+}
+
+.repository.file.list #repo-files-table tr:hover {
+  background-color: #373b41;
+}
+
+.ui.breadcrumb a {
+  color: #81a2be;
+}
+
+.ui.breadcrumb a:hover {
+  color: #81a2be;
+  opacity: 0.6;
+}
+
+.ui.basic.blue.button, .ui.basic.blue.buttons .button {
+  color: #81a2be !important;
+}
+
+.ui.basic.blue.button:hover, .ui.basic.blue.buttons .button:hover {
+  color: #81a2be !important;
+  opacity: 0.6;
+}
+
+.ui.blue.label, .ui.blue.labels .label {
+  background-color: #81a2be !important;
+  color: #1d1f21 !important;
+}
+
+.ui.menu .item>.label {
+  color: #1d1f21;
+}
+
+.ui.tabular.menu .item:hover {
+  color: #e0e0e0;
+  opacity: 0.6;
+}
+
+.ui .text.black:hover {
+  color: #e0e0e0;
+  opacity: 0.6;
 }
