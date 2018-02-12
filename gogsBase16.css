@@ -163,6 +163,22 @@ hr {
   color: #969896 !important;
 }
 
+.ui.user.list .item:not(:first-child) {
+  border-top: 1px solid rgba(224, 224, 224, 0.6);
+}
+
+.ui.divider:not(.vertical):not(.horizontal) {
+  border-bottom: 1px solid rgba(224, 224, 224, 0.6);
+}
+
+.ui.user.list .item:not(:first-child) {
+  border-top: 1px solid rgba(224, 224, 224, 0.6);
+}
+
+.ui.divider:not(.vertical):not(.horizontal) {
+  border-bottom: 1px solid rgba(224, 224, 224, 0.6);
+}
+
 /* Repos */
 
 .repository .header-wrapper {
