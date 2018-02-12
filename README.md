@@ -10,7 +10,7 @@ Once the theme has reached a public state, it will also be available at [usersty
 
 ## Getting Started
 
-This stylish theme is based on [base16 by chriskempson](https://github.com/chriskempson/base16).
+This stylish theme is based on [base16 tomorrow night by chriskempson](https://github.com/chriskempson/base16).
 
 ### Prerequisites
 * You need to have stylish installed in your browser.
@@ -24,9 +24,9 @@ Since this is not official relased, you have to manual install it. It will be ea
 * give it a name, paste css and specify the url below the code
 
 ## Contributing
-Please feel free submit pull requests, as I'm not a web developer at all. Please stick to the base16 color scheme.
+Feel free submit pull requests, as I'm not a web developer at all.
 
-Any help is welcome.
+Please stick to the base16 tomorrow night color scheme. Any help is welcome.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
