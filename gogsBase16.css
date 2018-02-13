@@ -184,6 +184,10 @@ hr {
   background-color: #282a2e !important;
 }
 
+.ui.user.list .item .description a {
+  color: #81a2be !important;
+}
+
 /* Repos */
 
 .repository .header-wrapper {
