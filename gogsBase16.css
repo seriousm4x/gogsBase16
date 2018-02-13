@@ -403,6 +403,22 @@ hr {
   color: #e0e0e0 !important;
 }
 
+.markdown:not(code) table tr {
+  background-color: #1d1f21;
+}
+
+.markdown:not(code) table tr:nth-child(2n) {
+  background-color: #373b41;
+}
+
+.markdown:not(code) table th, .markdown:not(code) table td {
+  border: none !important;
+}
+
+.markdown:not(code) blockquote {
+  color: #b4b7b4 !important;
+}
+
 /* Issues */
 
 .ui.basic.green.active.button, .ui.basic.green.buttons .active.button {
