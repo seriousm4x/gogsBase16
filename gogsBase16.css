@@ -394,6 +394,11 @@ hr {
   background-color: rgba(204, 102, 102, 0.1) !important;
 }
 
+.ui.secondary.pointing.menu a.item:hover {
+  background-color: #282a2e;
+  color: #e0e0e0 !important;
+}
+
 /* Issues */
 
 .ui.basic.green.active.button, .ui.basic.green.buttons .active.button {
@@ -463,6 +468,7 @@ hr {
 
 .ui.basic.red.button, .ui.basic.red.buttons .button {
   color: #cc6666 !important;
+  box-shadow: 0 0 0 1px #cc6666 inset!important
 }
 
 .ui.basic.green.button, .ui.basic.green.buttons .button {
