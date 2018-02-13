@@ -339,6 +339,10 @@ hr {
   color: #8abeb7 !important;
 }
 
+.hljs-string, .hljs-doctag {
+  color: #cc6666 !important;
+}
+
 .markdown:not(code) h1, .markdown:not(code) h2, .markdown:not(code) h3, .markdown:not(code) h4, .markdown:not(code) h5, .markdown:not(code) h6 {
   border-bottom: 1px solid rgba(224, 224, 224, 0.6);
 }
