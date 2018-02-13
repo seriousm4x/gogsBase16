@@ -167,6 +167,15 @@ hr {
   border-bottom: 1px solid #373b41;
 }
 
+.ui.list .list>.item .header, .ui.list>.item .header {
+  color: #e0e0e0;
+}
+
+.ui.pagination.menu .active.item {
+  color: #e0e0e0;
+  background-color: #373b41;
+}
+
 /* Repos */
 
 .repository .header-wrapper {
