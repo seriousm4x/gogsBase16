@@ -176,6 +176,14 @@ hr {
   background-color: #373b41;
 }
 
+.ui.menu .item.disabled, .ui.menu:hover .item.disabled:hover {
+  color: #e0e0e0;
+}
+
+.ui.menu:hover .item.disabled:hover {
+  background-color: #282a2e !important;
+}
+
 /* Repos */
 
 .repository .header-wrapper {
