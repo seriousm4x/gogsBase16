@@ -541,7 +541,7 @@ hr {
   color: #e0e0e0;
 }
 
-#old_password, #password, #retype, #email {
+#old_password, #password, #retype, #email, #description {
   background: #373b41;
   color: #e0e0e0;
 }
@@ -568,4 +568,26 @@ label[for=org_name] {
 
 .ui.teal.button, .ui.teal.buttons .button {
   background-color: #8abeb7;
+}
+
+.ui.form input[type=file], .ui.form input[type=number], .ui.form input[type=url], .ui.form input[type=password] {
+  color: #e0e0e0;
+  background: #373b41;
+}
+
+.ui.selection.dropdown {
+  color: #e0e0e0;
+  background: #373b41;
+}
+
+.organization.members .list .item {
+  border-bottom: 1px solid #373b41 !important;
+}
+
+.settings .hook.list > .item:not(:first-child) {
+  border-top: 1px solid #373b41 !important;
+}
+
+.settings .key.list .item:not(:first-child) {
+  border-top: 1px solid #373b41 !important;
 }
