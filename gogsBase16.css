@@ -78,7 +78,7 @@ hr {
 }
 
 .feeds .list ul li:not(:last-child) {
-  border-bottom: 1px solid rgba(224, 224, 224, 0.6);
+  border-bottom: 1px solid #373b41;
 }
 
 .ui.accordion .title:not(.ui) {
@@ -496,7 +496,7 @@ hr {
 
 .ui.basic.red.button, .ui.basic.red.buttons .button {
   color: #cc6666 !important;
-  box-shadow: 0 0 0 1px #cc6666 inset!important
+  box-shadow: 0 0 0 1px #cc6666 inset !important
 }
 
 .ui.basic.green.button, .ui.basic.green.buttons .button {
@@ -626,7 +626,7 @@ label[for=org_name] {
   border-bottom: 1px solid #373b41 !important;
 }
 
-.settings .hook.list > .item:not(:first-child) {
+.settings .hook.list>.item:not(:first-child) {
   border-top: 1px solid #373b41 !important;
 }
 
