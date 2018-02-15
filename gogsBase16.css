@@ -389,6 +389,10 @@ hr {
   color: #e0e0e0;
 }
 
+.ui.checkbox input:focus~label {
+  color: #e0e0e0 !important;
+}
+
 .ui.red.button, .ui.red.buttons .button {
   background-color: #cc6666;
 }
