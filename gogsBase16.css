@@ -213,7 +213,7 @@ hr {
 }
 
 .ui .text.black:hover {
-  color: #b4b7b4;
+  color: #e0e0e0;
 }
 
 .ui.segment {
@@ -288,11 +288,6 @@ hr {
   opacity: 0.6;
 }
 
-.ui .text.black:hover {
-  color: #e0e0e0;
-  opacity: 0.6;
-}
-
 .ui.breadcrumb .divider {
   color: #e0e0e0;
 }
@@ -308,6 +303,11 @@ hr {
 .ui.top.attached.header {
   background: #e0e0e0;
   color: #282a2e;
+}
+
+.ui .warning.header {
+  background-color: #de935f !important;
+  border-color: #de935f !important;
 }
 
 .ui.attached.table {
