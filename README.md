@@ -18,7 +18,7 @@ Gogs has an official way of loading custom css. You can find the doc [here](http
 * Create a file named custom.css under public/css directory.
 * Paste the content of [gogsBase16.css](gogsBase16.css).
 
-It seems the offical doc has a wrong url for the next step. My ```head.tmpl``` was located in ```/templates/inject/head.tmpl```
+It seems the offical doc has a wrong url for the next step. My ```head.tmpl``` was located in ```templates/inject/head.tmpl```
 
 * Edit file ```custom/templates/inject/head.tmpl``` and add a line ```<link rel="stylesheet" href="/css/custom.css">```
 * Restart Gogs
