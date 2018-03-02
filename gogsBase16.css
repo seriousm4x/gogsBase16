@@ -427,6 +427,10 @@ hr {
   color: #b4b7b4 !important;
 }
 
+.markdown:not(code) code, .markdown:not(code) tt {
+  background-color: #373b41;
+}
+
 /* Issues */
 
 .ui.basic.green.active.button, .ui.basic.green.buttons .active.button {
