@@ -511,11 +511,16 @@ hr {
 
 .ui.red.label, .ui.red.labels .label {
   background-color: #cc6666 !important;
-  border-color: none !important;
+  border-color: inherit !important;
 }
 
 .ui.form textarea {
   background: #e0e0e0;
+}
+
+.ui.basic.green.button:hover, .ui.basic.green.buttons .button:hover {
+  box-shadow: 0 0 0 1px #b5bd68 inset !important;
+  color: #b5bd68 !important
 }
 
 /* Pull requests */
