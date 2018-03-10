@@ -348,6 +348,16 @@ hr {
   color: #cc6666 !important;
 }
 
+.added-code {
+  color: #1d1f21;
+  background-color: #b5bd68;
+}
+
+.removed-code {
+  color: #1d1f21;
+  background-color: #cc6666;
+}
+
 .markdown:not(code) h1, .markdown:not(code) h2, .markdown:not(code) h3, .markdown:not(code) h4, .markdown:not(code) h5, .markdown:not(code) h6 {
   border-bottom: 1px solid rgba(224, 224, 224, 0.6);
 }
