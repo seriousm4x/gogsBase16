@@ -50,8 +50,8 @@ hr {
 }
 
 .ui.menu {
-  border: 1px solid #373b41;
-  background: #1d1f21;
+  background: #282a2e;
+  border: none;
 }
 
 .following.bar .top.menu a.item:hover {
@@ -74,7 +74,7 @@ hr {
 
 .feeds .list ul li.private {
   background-color: #373b41;
-  border-bottom: 1px solid rgba(224, 224, 224, 0.6);
+  border-bottom: none;
 }
 
 .feeds .list ul li:not(:last-child) {
@@ -115,6 +115,7 @@ hr {
 
 .ui.menu .active.item {
   color: #e0e0e0;
+  background: #373b41;
 }
 
 .ui.menu a.item:hover {
@@ -127,7 +128,7 @@ hr {
 }
 
 .ui.menu .active.item:hover, .ui.vertical.menu .active.item:hover {
-  background-color: #282a2e;
+  background-color: #373b41;
   color: #e0e0e0;
 }
 
