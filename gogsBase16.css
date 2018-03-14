@@ -144,10 +144,6 @@ hr {
   color: #e0e0e0;
 }
 
-.ui.blue.button, .ui.blue.buttons .button {
-  background-color: #81a2be;
-}
-
 .ui.list .list>.item .description, .ui.list>.item .description {
   color: #969896;
 }
@@ -275,11 +271,6 @@ hr {
   opacity: 0.6;
 }
 
-.ui.blue.label, .ui.blue.labels .label {
-  background-color: #81a2be !important;
-  color: #1d1f21 !important;
-}
-
 .ui.menu .item>.label {
   color: #1d1f21;
 }
@@ -346,16 +337,6 @@ hr {
 
 .hljs-string, .hljs-doctag {
   color: #cc6666 !important;
-}
-
-.added-code {
-  color: #1d1f21;
-  background-color: #b5bd68;
-}
-
-.removed-code {
-  color: #1d1f21;
-  background-color: #cc6666;
 }
 
 .markdown:not(code) h1, .markdown:not(code) h2, .markdown:not(code) h3, .markdown:not(code) h4, .markdown:not(code) h5, .markdown:not(code) h6 {
@@ -652,4 +633,46 @@ label[for=org_name] {
 
 .settings .key.list .item:not(:first-child) {
   border-top: 1px solid #373b41 !important;
+}
+
+/* Commit */
+
+.repository .diff-box .file {
+  color: #969896;
+}
+
+.ui.blue.button, .ui.blue.buttons .button {
+  background-color: #81a2be;
+  color: #e0e0e0 !important;
+}
+
+.ui.basic.grey.button, .ui.basic.grey.buttons .button {
+  color: #282a2e !important;
+}
+
+.added-code {
+  color: #1d1f21;
+  background-color: #b5bd68;
+}
+
+.removed-code {
+  color: #1d1f21;
+  background-color: #cc6666;
+}
+
+.ui.blue.label, .ui.blue.labels .label {
+  background-color: #81a2be !important;
+  color: #e0e0e0 !important;
+}
+
+.repository .diff-file-box .file-body.file-code .lines-num {
+  background: none;
+}
+
+.repository .diff-file-box .code-diff tbody tr.tag-code td {
+  background-color: #e0e0e0 !important;
+}
+
+.hljs-meta {
+  color: #373b41 !important;
 }
