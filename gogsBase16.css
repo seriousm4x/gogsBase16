@@ -213,6 +213,10 @@ hr {
   color: #e0e0e0;
 }
 
+.organization > div > div > div > div > a {
+  color: #282a2e !important;
+}
+
 .ui.segment {
   background: #282a2e;
 }
