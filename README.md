@@ -21,7 +21,7 @@ Gogs has an official way of loading custom css. You can find the doc [here](http
 *   Restart Gogs
 
 ### Client sided
-*   You need to have the stylus extension installed in your browser. Get the firefox extension [here](https://addons.mozilla.org/de/firefox/addon/styl-us/) and the chrome one [here](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
+*   You need to have the [stylus extension](https://github.com/openstyles/stylus) installed in your browser. Get the firefox extension [here](https://addons.mozilla.org/de/firefox/addon/styl-us/) and the chrome one [here](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
 *   Install [this style](https://userstyles.org/styles/155619/gogsbase16) and change the URL to take effect.
 
 
