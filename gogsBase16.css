@@ -351,8 +351,8 @@ hr {
   background: #282a2e !important;
 }
 
-.linenums>li {
-  background-color: #282a2e;
+ol.linenums {
+  background-color: #282a2e !important;
 }
 
 .lines-num>span {
