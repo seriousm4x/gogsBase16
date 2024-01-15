@@ -351,8 +351,8 @@ hr {
   background: #282a2e !important;
 }
 
-.linenums>li {
-  background-color: #282a2e;
+ol.linenums {
+  background-color: #282a2e !important;
 }
 
 .lines-num>span {
@@ -678,5 +678,5 @@ label[for=org_name] {
 }
 
 .hljs-meta {
-  color: #373b41 !important;
+  color: #557097 !important;
 }
